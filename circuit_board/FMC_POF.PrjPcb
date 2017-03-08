@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for FMC_POF
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -106,41 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LIBTNVYD
 
 [Document5]
-DocumentPath=Data_IO.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
-DocumentPath=FMC_POF.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ILNAJMTW
-
-[Document7]
-DocumentPath=FMC_Conn.Harness
+DocumentPath=FMC_POF.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -158,281 +124,1202 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
-Description=Transmitters-1-2-3
+Description=All_Receivers
 AllowFabrication=1
 ParameterCount=0
 VariationCount=25
-Variation1=Designator=RR1_POF1|UniqueId=\RLTRDYIM\1KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
-Variation2=Designator=RR1_POF2|UniqueId=\RLTRDYIM\2KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
-Variation3=Designator=RR1_POF3|UniqueId=\RLTRDYIM\3KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
-Variation4=Designator=RR2_POF1|UniqueId=\RLTRDYIM\1KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
-Variation5=Designator=RR2_POF2|UniqueId=\RLTRDYIM\2KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
-Variation6=Designator=RR2_POF3|UniqueId=\RLTRDYIM\3KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
-Variation7=Designator=RR3_POF1|UniqueId=\RLTRDYIM\1KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
-Variation8=Designator=RR3_POF2|UniqueId=\RLTRDYIM\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
-Variation9=Designator=RR3_POF3|UniqueId=\RLTRDYIM\3KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
-Variation10=Designator=CR1_POF1|UniqueId=\RLTRDYIM\1KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
-Variation11=Designator=CR1_POF2|UniqueId=\RLTRDYIM\2KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
-Variation12=Designator=CR1_POF3|UniqueId=\RLTRDYIM\3KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
-Variation13=Designator=J1_POF1|UniqueId=\RLTRDYIM\1KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+Variation1=Designator=CT1_1|UniqueId=\1KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation2=Designator=CT1_3|UniqueId=\3KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation3=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation4=Designator=CT1_2|UniqueId=\2KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation5=Designator=CT1_4|UniqueId=\4KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation6=Designator=RT3_1|UniqueId=\1KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation7=Designator=RT2_1|UniqueId=\1KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation8=Designator=RT4_1|UniqueId=\1KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation9=Designator=RT1_1|UniqueId=\1KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation10=Designator=RT1_3|UniqueId=\3KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation11=Designator=RT1_2|UniqueId=\2KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation12=Designator=RT2_3|UniqueId=\3KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation13=Designator=RT4_3|UniqueId=\3KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation14=Designator=RT3_5|UniqueId=\5KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation15=Designator=RT4_4|UniqueId=\4KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation16=Designator=RT4_2|UniqueId=\2KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation17=Designator=RT3_3|UniqueId=\3KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation18=Designator=RT2_4|UniqueId=\4KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation19=Designator=RT1_4|UniqueId=\4KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation20=Designator=RT3_2|UniqueId=\2KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation21=Designator=RT2_2|UniqueId=\2KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation22=Designator=RT2_5|UniqueId=\5KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation23=Designator=RT3_4|UniqueId=\4KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation24=Designator=RT4_5|UniqueId=\5KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation25=Designator=RT1_5|UniqueId=\5KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
+Description=Transmitter-1
+AllowFabrication=1
+ParameterCount=0
+VariationCount=25
+Variation1=Designator=CT1_3|UniqueId=\3KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation2=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation3=Designator=CT1_2|UniqueId=\2KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation4=Designator=CT1_4|UniqueId=\4KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation5=Designator=CR1_1|UniqueId=\1KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation6=Designator=RR1_1|UniqueId=\1KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation7=Designator=RR2_1|UniqueId=\1KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation8=Designator=RR3_1|UniqueId=\1KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation9=Designator=RT1_3|UniqueId=\3KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation10=Designator=RT1_2|UniqueId=\2KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation11=Designator=RT2_3|UniqueId=\3KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation12=Designator=RT4_3|UniqueId=\3KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation13=Designator=RT3_5|UniqueId=\5KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation14=Designator=RT4_4|UniqueId=\4KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation15=Designator=RT4_2|UniqueId=\2KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation16=Designator=RT3_3|UniqueId=\3KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation17=Designator=RT2_4|UniqueId=\4KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation18=Designator=RT1_4|UniqueId=\4KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation19=Designator=RT3_2|UniqueId=\2KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation20=Designator=RT2_2|UniqueId=\2KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation21=Designator=RT2_5|UniqueId=\5KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation22=Designator=RT3_4|UniqueId=\4KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation23=Designator=RT4_5|UniqueId=\5KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation24=Designator=RT1_5|UniqueId=\5KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation25=Designator=J1_1|UniqueId=\1KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue==Device
-ParamDesignator1=J1_POF1
+ParamDesignator1=J1_1
 ParamVariation2=ParameterName=ComponentHeight|VariantValue=7.62mm
-ParamDesignator2=J1_POF1
+ParamDesignator2=J1_1
 ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator3=J1_POF1
+ParamDesignator3=J1_1
 ParamVariation4=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator4=J1_POF1
+ParamDesignator4=J1_1
 ParamVariation5=ParameterName=CreateDate|VariantValue=10/02/2017
-ParamDesignator5=J1_POF1
+ParamDesignator5=J1_1
 ParamVariation6=ParameterName=Database Table Name|VariantValue=Miscellaneous
-ParamDesignator6=J1_POF1
+ParamDesignator6=J1_1
 ParamVariation7=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
-ParamDesignator7=J1_POF1
+ParamDesignator7=J1_1
 ParamVariation8=ParameterName=Device|VariantValue=AFBR-1624Z
-ParamDesignator8=J1_POF1
+ParamDesignator8=J1_1
 ParamVariation9=ParameterName=Family|VariantValue=Optical Fiber
-ParamDesignator9=J1_POF1
+ParamDesignator9=J1_1
 ParamVariation10=ParameterName=Footprint|VariantValue=AFBR-x624Z
-ParamDesignator10=J1_POF1
+ParamDesignator10=J1_1
 ParamVariation11=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator11=J1_POF1
+ParamDesignator11=J1_1
 ParamVariation12=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
-ParamDesignator12=J1_POF1
+ParamDesignator12=J1_1
 ParamVariation13=ParameterName=Library Reference|VariantValue=AFBR-1624Z
-ParamDesignator13=J1_POF1
+ParamDesignator13=J1_1
 ParamVariation14=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
-ParamDesignator14=J1_POF1
+ParamDesignator14=J1_1
 ParamVariation15=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
-ParamDesignator15=J1_POF1
+ParamDesignator15=J1_1
 ParamVariation16=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator16=J1_POF1
+ParamDesignator16=J1_1
 ParamVariation17=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
-ParamDesignator17=J1_POF1
+ParamDesignator17=J1_1
 ParamVariation18=ParameterName=Part Number|VariantValue=AFBR-1624Z
-ParamDesignator18=J1_POF1
+ParamDesignator18=J1_1
 ParamVariation19=ParameterName=PCB3D|VariantValue= 
-ParamDesignator19=J1_POF1
+ParamDesignator19=J1_1
 ParamVariation20=ParameterName=Pin Count|VariantValue=6
-ParamDesignator20=J1_POF1
+ParamDesignator20=J1_1
 ParamVariation21=ParameterName=PressFit|VariantValue=No
-ParamDesignator21=J1_POF1
+ParamDesignator21=J1_1
 ParamVariation22=ParameterName=Sense|VariantValue=No
-ParamDesignator22=J1_POF1
+ParamDesignator22=J1_1
 ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator23=J1_POF1
+ParamDesignator23=J1_1
 ParamVariation24=ParameterName=Simulation|VariantValue= 
-ParamDesignator24=J1_POF1
+ParamDesignator24=J1_1
 ParamVariation25=ParameterName=SMD|VariantValue=No
-ParamDesignator25=J1_POF1
+ParamDesignator25=J1_1
 ParamVariation26=ParameterName=Socket|VariantValue=No
-ParamDesignator26=J1_POF1
+ParamDesignator26=J1_1
 ParamVariation27=ParameterName=Status|VariantValue=None
-ParamDesignator27=J1_POF1
-Variation14=Designator=J1_POF2|UniqueId=\RLTRDYIM\2KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamDesignator27=J1_1
+ParamVariationCount=27
+
+[ProjectVariant3]
+UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
+Description=Transmitter-1-2
+AllowFabrication=1
+ParameterCount=0
+VariationCount=25
+Variation1=Designator=CT1_3|UniqueId=\3KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation2=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation3=Designator=CT1_4|UniqueId=\4KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation4=Designator=CR1_1|UniqueId=\1KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation5=Designator=CR1_2|UniqueId=\2KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation6=Designator=RR1_1|UniqueId=\1KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation7=Designator=RR2_1|UniqueId=\1KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation8=Designator=RR3_1|UniqueId=\1KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation9=Designator=RR1_2|UniqueId=\2KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation10=Designator=RR2_2|UniqueId=\2KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation11=Designator=RT1_3|UniqueId=\3KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation12=Designator=RT2_3|UniqueId=\3KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation13=Designator=RT4_3|UniqueId=\3KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation14=Designator=RT3_5|UniqueId=\5KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation15=Designator=RT4_4|UniqueId=\4KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation16=Designator=RT3_3|UniqueId=\3KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation17=Designator=RT2_4|UniqueId=\4KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation18=Designator=RT1_4|UniqueId=\4KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation19=Designator=RT2_5|UniqueId=\5KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation20=Designator=RT3_4|UniqueId=\4KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation21=Designator=RT4_5|UniqueId=\5KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation22=Designator=RT1_5|UniqueId=\5KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation23=Designator=J1_1|UniqueId=\1KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Device
+ParamDesignator1=J1_1
+ParamVariation2=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator2=J1_1
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=J1_1
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=J1_1
+ParamVariation5=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator5=J1_1
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator6=J1_1
+ParamVariation7=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator7=J1_1
+ParamVariation8=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator8=J1_1
+ParamVariation9=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator9=J1_1
+ParamVariation10=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator10=J1_1
+ParamVariation11=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator11=J1_1
+ParamVariation12=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator12=J1_1
+ParamVariation13=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator13=J1_1
+ParamVariation14=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator14=J1_1
+ParamVariation15=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator15=J1_1
+ParamVariation16=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator16=J1_1
+ParamVariation17=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator17=J1_1
+ParamVariation18=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator18=J1_1
+ParamVariation19=ParameterName=PCB3D|VariantValue= 
+ParamDesignator19=J1_1
+ParamVariation20=ParameterName=Pin Count|VariantValue=6
+ParamDesignator20=J1_1
+ParamVariation21=ParameterName=PressFit|VariantValue=No
+ParamDesignator21=J1_1
+ParamVariation22=ParameterName=Sense|VariantValue=No
+ParamDesignator22=J1_1
+ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator23=J1_1
+ParamVariation24=ParameterName=Simulation|VariantValue= 
+ParamDesignator24=J1_1
+ParamVariation25=ParameterName=SMD|VariantValue=No
+ParamDesignator25=J1_1
+ParamVariation26=ParameterName=Socket|VariantValue=No
+ParamDesignator26=J1_1
+ParamVariation27=ParameterName=Status|VariantValue=None
+ParamDesignator27=J1_1
+Variation24=Designator=J1_2|UniqueId=\2KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
 ParamVariation28=ParameterName=Comment|VariantValue==Device
-ParamDesignator28=J1_POF2
+ParamDesignator28=J1_2
 ParamVariation29=ParameterName=ComponentHeight|VariantValue=7.62mm
-ParamDesignator29=J1_POF2
+ParamDesignator29=J1_2
 ParamVariation30=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator30=J1_POF2
+ParamDesignator30=J1_2
 ParamVariation31=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator31=J1_POF2
+ParamDesignator31=J1_2
 ParamVariation32=ParameterName=CreateDate|VariantValue=10/02/2017
-ParamDesignator32=J1_POF2
+ParamDesignator32=J1_2
 ParamVariation33=ParameterName=Database Table Name|VariantValue=Miscellaneous
-ParamDesignator33=J1_POF2
+ParamDesignator33=J1_2
 ParamVariation34=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
-ParamDesignator34=J1_POF2
+ParamDesignator34=J1_2
 ParamVariation35=ParameterName=Device|VariantValue=AFBR-1624Z
-ParamDesignator35=J1_POF2
+ParamDesignator35=J1_2
 ParamVariation36=ParameterName=Family|VariantValue=Optical Fiber
-ParamDesignator36=J1_POF2
+ParamDesignator36=J1_2
 ParamVariation37=ParameterName=Footprint|VariantValue=AFBR-x624Z
-ParamDesignator37=J1_POF2
+ParamDesignator37=J1_2
 ParamVariation38=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator38=J1_POF2
+ParamDesignator38=J1_2
 ParamVariation39=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
-ParamDesignator39=J1_POF2
+ParamDesignator39=J1_2
 ParamVariation40=ParameterName=Library Reference|VariantValue=AFBR-1624Z
-ParamDesignator40=J1_POF2
+ParamDesignator40=J1_2
 ParamVariation41=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
-ParamDesignator41=J1_POF2
+ParamDesignator41=J1_2
 ParamVariation42=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
-ParamDesignator42=J1_POF2
+ParamDesignator42=J1_2
 ParamVariation43=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator43=J1_POF2
+ParamDesignator43=J1_2
 ParamVariation44=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
-ParamDesignator44=J1_POF2
+ParamDesignator44=J1_2
 ParamVariation45=ParameterName=Part Number|VariantValue=AFBR-1624Z
-ParamDesignator45=J1_POF2
+ParamDesignator45=J1_2
 ParamVariation46=ParameterName=PCB3D|VariantValue= 
-ParamDesignator46=J1_POF2
+ParamDesignator46=J1_2
 ParamVariation47=ParameterName=Pin Count|VariantValue=6
-ParamDesignator47=J1_POF2
+ParamDesignator47=J1_2
 ParamVariation48=ParameterName=PressFit|VariantValue=No
-ParamDesignator48=J1_POF2
+ParamDesignator48=J1_2
 ParamVariation49=ParameterName=Sense|VariantValue=No
-ParamDesignator49=J1_POF2
+ParamDesignator49=J1_2
 ParamVariation50=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator50=J1_POF2
+ParamDesignator50=J1_2
 ParamVariation51=ParameterName=Simulation|VariantValue= 
-ParamDesignator51=J1_POF2
+ParamDesignator51=J1_2
 ParamVariation52=ParameterName=SMD|VariantValue=No
-ParamDesignator52=J1_POF2
+ParamDesignator52=J1_2
 ParamVariation53=ParameterName=Socket|VariantValue=No
-ParamDesignator53=J1_POF2
+ParamDesignator53=J1_2
 ParamVariation54=ParameterName=Status|VariantValue=None
-ParamDesignator54=J1_POF2
-Variation15=Designator=J1_POF3|UniqueId=\RLTRDYIM\3KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamDesignator54=J1_2
+Variation25=Designator=RR3_2|UniqueId=\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+ParamVariationCount=54
+
+[ProjectVariant4]
+UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
+Description=Transmitter-1-2-3
+AllowFabrication=1
+ParameterCount=0
+VariationCount=25
+Variation1=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation2=Designator=CT1_4|UniqueId=\4KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation3=Designator=CR1_3|UniqueId=\3KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation4=Designator=CR1_1|UniqueId=\1KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation5=Designator=CR1_2|UniqueId=\2KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation6=Designator=RR1_1|UniqueId=\1KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation7=Designator=RR2_1|UniqueId=\1KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation8=Designator=RR3_1|UniqueId=\1KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation9=Designator=RR1_2|UniqueId=\2KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation10=Designator=RR2_2|UniqueId=\2KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation11=Designator=RT3_5|UniqueId=\5KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation12=Designator=RT4_4|UniqueId=\4KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation13=Designator=RT2_4|UniqueId=\4KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation14=Designator=RT1_4|UniqueId=\4KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation15=Designator=RT2_5|UniqueId=\5KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation16=Designator=RT3_4|UniqueId=\4KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation17=Designator=RT4_5|UniqueId=\5KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation18=Designator=RT1_5|UniqueId=\5KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation19=Designator=RR3_3|UniqueId=\3KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation20=Designator=J1_1|UniqueId=\1KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Device
+ParamDesignator1=J1_1
+ParamVariation2=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator2=J1_1
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=J1_1
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=J1_1
+ParamVariation5=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator5=J1_1
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator6=J1_1
+ParamVariation7=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator7=J1_1
+ParamVariation8=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator8=J1_1
+ParamVariation9=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator9=J1_1
+ParamVariation10=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator10=J1_1
+ParamVariation11=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator11=J1_1
+ParamVariation12=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator12=J1_1
+ParamVariation13=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator13=J1_1
+ParamVariation14=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator14=J1_1
+ParamVariation15=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator15=J1_1
+ParamVariation16=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator16=J1_1
+ParamVariation17=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator17=J1_1
+ParamVariation18=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator18=J1_1
+ParamVariation19=ParameterName=PCB3D|VariantValue= 
+ParamDesignator19=J1_1
+ParamVariation20=ParameterName=Pin Count|VariantValue=6
+ParamDesignator20=J1_1
+ParamVariation21=ParameterName=PressFit|VariantValue=No
+ParamDesignator21=J1_1
+ParamVariation22=ParameterName=Sense|VariantValue=No
+ParamDesignator22=J1_1
+ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator23=J1_1
+ParamVariation24=ParameterName=Simulation|VariantValue= 
+ParamDesignator24=J1_1
+ParamVariation25=ParameterName=SMD|VariantValue=No
+ParamDesignator25=J1_1
+ParamVariation26=ParameterName=Socket|VariantValue=No
+ParamDesignator26=J1_1
+ParamVariation27=ParameterName=Status|VariantValue=None
+ParamDesignator27=J1_1
+Variation21=Designator=RR2_3|UniqueId=\3KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation22=Designator=J1_3|UniqueId=\3KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation28=ParameterName=Comment|VariantValue==Device
+ParamDesignator28=J1_3
+ParamVariation29=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator29=J1_3
+ParamVariation30=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator30=J1_3
+ParamVariation31=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator31=J1_3
+ParamVariation32=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator32=J1_3
+ParamVariation33=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator33=J1_3
+ParamVariation34=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator34=J1_3
+ParamVariation35=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator35=J1_3
+ParamVariation36=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator36=J1_3
+ParamVariation37=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator37=J1_3
+ParamVariation38=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator38=J1_3
+ParamVariation39=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator39=J1_3
+ParamVariation40=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator40=J1_3
+ParamVariation41=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator41=J1_3
+ParamVariation42=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator42=J1_3
+ParamVariation43=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator43=J1_3
+ParamVariation44=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator44=J1_3
+ParamVariation45=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator45=J1_3
+ParamVariation46=ParameterName=PCB3D|VariantValue= 
+ParamDesignator46=J1_3
+ParamVariation47=ParameterName=Pin Count|VariantValue=6
+ParamDesignator47=J1_3
+ParamVariation48=ParameterName=PressFit|VariantValue=No
+ParamDesignator48=J1_3
+ParamVariation49=ParameterName=Sense|VariantValue=No
+ParamDesignator49=J1_3
+ParamVariation50=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator50=J1_3
+ParamVariation51=ParameterName=Simulation|VariantValue= 
+ParamDesignator51=J1_3
+ParamVariation52=ParameterName=SMD|VariantValue=No
+ParamDesignator52=J1_3
+ParamVariation53=ParameterName=Socket|VariantValue=No
+ParamDesignator53=J1_3
+ParamVariation54=ParameterName=Status|VariantValue=None
+ParamDesignator54=J1_3
+Variation23=Designator=J1_2|UniqueId=\2KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
 ParamVariation55=ParameterName=Comment|VariantValue==Device
-ParamDesignator55=J1_POF3
+ParamDesignator55=J1_2
 ParamVariation56=ParameterName=ComponentHeight|VariantValue=7.62mm
-ParamDesignator56=J1_POF3
+ParamDesignator56=J1_2
 ParamVariation57=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator57=J1_POF3
+ParamDesignator57=J1_2
 ParamVariation58=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator58=J1_POF3
+ParamDesignator58=J1_2
 ParamVariation59=ParameterName=CreateDate|VariantValue=10/02/2017
-ParamDesignator59=J1_POF3
+ParamDesignator59=J1_2
 ParamVariation60=ParameterName=Database Table Name|VariantValue=Miscellaneous
-ParamDesignator60=J1_POF3
+ParamDesignator60=J1_2
 ParamVariation61=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
-ParamDesignator61=J1_POF3
+ParamDesignator61=J1_2
 ParamVariation62=ParameterName=Device|VariantValue=AFBR-1624Z
-ParamDesignator62=J1_POF3
+ParamDesignator62=J1_2
 ParamVariation63=ParameterName=Family|VariantValue=Optical Fiber
-ParamDesignator63=J1_POF3
+ParamDesignator63=J1_2
 ParamVariation64=ParameterName=Footprint|VariantValue=AFBR-x624Z
-ParamDesignator64=J1_POF3
+ParamDesignator64=J1_2
 ParamVariation65=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator65=J1_POF3
+ParamDesignator65=J1_2
 ParamVariation66=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
-ParamDesignator66=J1_POF3
+ParamDesignator66=J1_2
 ParamVariation67=ParameterName=Library Reference|VariantValue=AFBR-1624Z
-ParamDesignator67=J1_POF3
+ParamDesignator67=J1_2
 ParamVariation68=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
-ParamDesignator68=J1_POF3
+ParamDesignator68=J1_2
 ParamVariation69=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
-ParamDesignator69=J1_POF3
+ParamDesignator69=J1_2
 ParamVariation70=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator70=J1_POF3
+ParamDesignator70=J1_2
 ParamVariation71=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
-ParamDesignator71=J1_POF3
+ParamDesignator71=J1_2
 ParamVariation72=ParameterName=Part Number|VariantValue=AFBR-1624Z
-ParamDesignator72=J1_POF3
+ParamDesignator72=J1_2
 ParamVariation73=ParameterName=PCB3D|VariantValue= 
-ParamDesignator73=J1_POF3
+ParamDesignator73=J1_2
 ParamVariation74=ParameterName=Pin Count|VariantValue=6
-ParamDesignator74=J1_POF3
+ParamDesignator74=J1_2
 ParamVariation75=ParameterName=PressFit|VariantValue=No
-ParamDesignator75=J1_POF3
+ParamDesignator75=J1_2
 ParamVariation76=ParameterName=Sense|VariantValue=No
-ParamDesignator76=J1_POF3
+ParamDesignator76=J1_2
 ParamVariation77=ParameterName=Signal Integrity|VariantValue= 
-ParamDesignator77=J1_POF3
+ParamDesignator77=J1_2
 ParamVariation78=ParameterName=Simulation|VariantValue= 
-ParamDesignator78=J1_POF3
+ParamDesignator78=J1_2
 ParamVariation79=ParameterName=SMD|VariantValue=No
-ParamDesignator79=J1_POF3
+ParamDesignator79=J1_2
 ParamVariation80=ParameterName=Socket|VariantValue=No
-ParamDesignator80=J1_POF3
+ParamDesignator80=J1_2
 ParamVariation81=ParameterName=Status|VariantValue=None
-ParamDesignator81=J1_POF3
-Variation16=Designator=CT1_POF4|UniqueId=\RLTRDYIM\4KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
-Variation17=Designator=CT1_POF5|UniqueId=\RLTRDYIM\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
-Variation18=Designator=RT1_POF4|UniqueId=\RLTRDYIM\4KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
-Variation19=Designator=RT1_POF5|UniqueId=\RLTRDYIM\5KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
-Variation20=Designator=RT2_POF4|UniqueId=\RLTRDYIM\4KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
-Variation21=Designator=RT2_POF5|UniqueId=\RLTRDYIM\5KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
-Variation22=Designator=RT3_POF5|UniqueId=\RLTRDYIM\5KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
-Variation23=Designator=RT3_POF4|UniqueId=\RLTRDYIM\4KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
-Variation24=Designator=RT4_POF5|UniqueId=\RLTRDYIM\5KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
-Variation25=Designator=RT4_POF4|UniqueId=\RLTRDYIM\4KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+ParamDesignator81=J1_2
+Variation24=Designator=RR1_3|UniqueId=\3KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation25=Designator=RR3_2|UniqueId=\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
 ParamVariationCount=81
 
+[ProjectVariant5]
+UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
+Description=Transmitter-1-2-3-4
+AllowFabrication=1
+ParameterCount=0
+VariationCount=25
+Variation1=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
+Variation2=Designator=CR1_4|UniqueId=\4KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation3=Designator=CR1_3|UniqueId=\3KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation4=Designator=CR1_1|UniqueId=\1KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation5=Designator=CR1_2|UniqueId=\2KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation6=Designator=RR1_1|UniqueId=\1KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation7=Designator=RR2_1|UniqueId=\1KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation8=Designator=RR3_1|UniqueId=\1KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation9=Designator=RR1_2|UniqueId=\2KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation10=Designator=RR2_2|UniqueId=\2KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation11=Designator=RT3_5|UniqueId=\5KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
+Variation12=Designator=RT2_5|UniqueId=\5KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart= 
+Variation13=Designator=RT4_5|UniqueId=\5KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
+Variation14=Designator=RT1_5|UniqueId=\5KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation15=Designator=RR3_4|UniqueId=\4KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation16=Designator=RR3_3|UniqueId=\3KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation17=Designator=J1_1|UniqueId=\1KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Device
+ParamDesignator1=J1_1
+ParamVariation2=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator2=J1_1
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=J1_1
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=J1_1
+ParamVariation5=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator5=J1_1
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator6=J1_1
+ParamVariation7=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator7=J1_1
+ParamVariation8=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator8=J1_1
+ParamVariation9=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator9=J1_1
+ParamVariation10=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator10=J1_1
+ParamVariation11=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator11=J1_1
+ParamVariation12=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator12=J1_1
+ParamVariation13=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator13=J1_1
+ParamVariation14=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator14=J1_1
+ParamVariation15=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator15=J1_1
+ParamVariation16=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator16=J1_1
+ParamVariation17=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator17=J1_1
+ParamVariation18=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator18=J1_1
+ParamVariation19=ParameterName=PCB3D|VariantValue= 
+ParamDesignator19=J1_1
+ParamVariation20=ParameterName=Pin Count|VariantValue=6
+ParamDesignator20=J1_1
+ParamVariation21=ParameterName=PressFit|VariantValue=No
+ParamDesignator21=J1_1
+ParamVariation22=ParameterName=Sense|VariantValue=No
+ParamDesignator22=J1_1
+ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator23=J1_1
+ParamVariation24=ParameterName=Simulation|VariantValue= 
+ParamDesignator24=J1_1
+ParamVariation25=ParameterName=SMD|VariantValue=No
+ParamDesignator25=J1_1
+ParamVariation26=ParameterName=Socket|VariantValue=No
+ParamDesignator26=J1_1
+ParamVariation27=ParameterName=Status|VariantValue=None
+ParamDesignator27=J1_1
+Variation18=Designator=RR2_3|UniqueId=\3KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation19=Designator=J1_4|UniqueId=\4KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation28=ParameterName=Comment|VariantValue==Device
+ParamDesignator28=J1_4
+ParamVariation29=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator29=J1_4
+ParamVariation30=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator30=J1_4
+ParamVariation31=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator31=J1_4
+ParamVariation32=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator32=J1_4
+ParamVariation33=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator33=J1_4
+ParamVariation34=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator34=J1_4
+ParamVariation35=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator35=J1_4
+ParamVariation36=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator36=J1_4
+ParamVariation37=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator37=J1_4
+ParamVariation38=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator38=J1_4
+ParamVariation39=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator39=J1_4
+ParamVariation40=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator40=J1_4
+ParamVariation41=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator41=J1_4
+ParamVariation42=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator42=J1_4
+ParamVariation43=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator43=J1_4
+ParamVariation44=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator44=J1_4
+ParamVariation45=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator45=J1_4
+ParamVariation46=ParameterName=PCB3D|VariantValue= 
+ParamDesignator46=J1_4
+ParamVariation47=ParameterName=Pin Count|VariantValue=6
+ParamDesignator47=J1_4
+ParamVariation48=ParameterName=PressFit|VariantValue=No
+ParamDesignator48=J1_4
+ParamVariation49=ParameterName=Sense|VariantValue=No
+ParamDesignator49=J1_4
+ParamVariation50=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator50=J1_4
+ParamVariation51=ParameterName=Simulation|VariantValue= 
+ParamDesignator51=J1_4
+ParamVariation52=ParameterName=SMD|VariantValue=No
+ParamDesignator52=J1_4
+ParamVariation53=ParameterName=Socket|VariantValue=No
+ParamDesignator53=J1_4
+ParamVariation54=ParameterName=Status|VariantValue=None
+ParamDesignator54=J1_4
+Variation20=Designator=J1_3|UniqueId=\3KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation55=ParameterName=Comment|VariantValue==Device
+ParamDesignator55=J1_3
+ParamVariation56=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator56=J1_3
+ParamVariation57=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator57=J1_3
+ParamVariation58=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator58=J1_3
+ParamVariation59=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator59=J1_3
+ParamVariation60=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator60=J1_3
+ParamVariation61=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator61=J1_3
+ParamVariation62=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator62=J1_3
+ParamVariation63=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator63=J1_3
+ParamVariation64=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator64=J1_3
+ParamVariation65=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator65=J1_3
+ParamVariation66=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator66=J1_3
+ParamVariation67=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator67=J1_3
+ParamVariation68=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator68=J1_3
+ParamVariation69=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator69=J1_3
+ParamVariation70=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator70=J1_3
+ParamVariation71=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator71=J1_3
+ParamVariation72=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator72=J1_3
+ParamVariation73=ParameterName=PCB3D|VariantValue= 
+ParamDesignator73=J1_3
+ParamVariation74=ParameterName=Pin Count|VariantValue=6
+ParamDesignator74=J1_3
+ParamVariation75=ParameterName=PressFit|VariantValue=No
+ParamDesignator75=J1_3
+ParamVariation76=ParameterName=Sense|VariantValue=No
+ParamDesignator76=J1_3
+ParamVariation77=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator77=J1_3
+ParamVariation78=ParameterName=Simulation|VariantValue= 
+ParamDesignator78=J1_3
+ParamVariation79=ParameterName=SMD|VariantValue=No
+ParamDesignator79=J1_3
+ParamVariation80=ParameterName=Socket|VariantValue=No
+ParamDesignator80=J1_3
+ParamVariation81=ParameterName=Status|VariantValue=None
+ParamDesignator81=J1_3
+Variation21=Designator=J1_2|UniqueId=\2KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation82=ParameterName=Comment|VariantValue==Device
+ParamDesignator82=J1_2
+ParamVariation83=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator83=J1_2
+ParamVariation84=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator84=J1_2
+ParamVariation85=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator85=J1_2
+ParamVariation86=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator86=J1_2
+ParamVariation87=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator87=J1_2
+ParamVariation88=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator88=J1_2
+ParamVariation89=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator89=J1_2
+ParamVariation90=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator90=J1_2
+ParamVariation91=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator91=J1_2
+ParamVariation92=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator92=J1_2
+ParamVariation93=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator93=J1_2
+ParamVariation94=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator94=J1_2
+ParamVariation95=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator95=J1_2
+ParamVariation96=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator96=J1_2
+ParamVariation97=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator97=J1_2
+ParamVariation98=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator98=J1_2
+ParamVariation99=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator99=J1_2
+ParamVariation100=ParameterName=PCB3D|VariantValue= 
+ParamDesignator100=J1_2
+ParamVariation101=ParameterName=Pin Count|VariantValue=6
+ParamDesignator101=J1_2
+ParamVariation102=ParameterName=PressFit|VariantValue=No
+ParamDesignator102=J1_2
+ParamVariation103=ParameterName=Sense|VariantValue=No
+ParamDesignator103=J1_2
+ParamVariation104=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator104=J1_2
+ParamVariation105=ParameterName=Simulation|VariantValue= 
+ParamDesignator105=J1_2
+ParamVariation106=ParameterName=SMD|VariantValue=No
+ParamDesignator106=J1_2
+ParamVariation107=ParameterName=Socket|VariantValue=No
+ParamDesignator107=J1_2
+ParamVariation108=ParameterName=Status|VariantValue=None
+ParamDesignator108=J1_2
+Variation22=Designator=RR1_4|UniqueId=\4KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation23=Designator=RR1_3|UniqueId=\3KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation24=Designator=RR3_2|UniqueId=\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation25=Designator=RR2_4|UniqueId=\4KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+ParamVariationCount=108
+
+[ProjectVariant6]
+UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
+Description=Transmitter-1-2-3-4-5
+AllowFabrication=1
+ParameterCount=0
+VariationCount=25
+Variation1=Designator=CR1_5|UniqueId=\5KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation2=Designator=CR1_4|UniqueId=\4KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation3=Designator=CR1_3|UniqueId=\3KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation4=Designator=CR1_1|UniqueId=\1KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation5=Designator=CR1_2|UniqueId=\2KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
+Variation6=Designator=RR1_1|UniqueId=\1KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation7=Designator=RR2_1|UniqueId=\1KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation8=Designator=RR3_1|UniqueId=\1KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation9=Designator=RR1_2|UniqueId=\2KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation10=Designator=RR2_2|UniqueId=\2KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation11=Designator=RR3_4|UniqueId=\4KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation12=Designator=RR3_5|UniqueId=\5KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation13=Designator=RR1_5|UniqueId=\5KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation14=Designator=RR3_3|UniqueId=\3KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation15=Designator=J1_1|UniqueId=\1KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Device
+ParamDesignator1=J1_1
+ParamVariation2=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator2=J1_1
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=J1_1
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=J1_1
+ParamVariation5=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator5=J1_1
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator6=J1_1
+ParamVariation7=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator7=J1_1
+ParamVariation8=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator8=J1_1
+ParamVariation9=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator9=J1_1
+ParamVariation10=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator10=J1_1
+ParamVariation11=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator11=J1_1
+ParamVariation12=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator12=J1_1
+ParamVariation13=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator13=J1_1
+ParamVariation14=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator14=J1_1
+ParamVariation15=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator15=J1_1
+ParamVariation16=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator16=J1_1
+ParamVariation17=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator17=J1_1
+ParamVariation18=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator18=J1_1
+ParamVariation19=ParameterName=PCB3D|VariantValue= 
+ParamDesignator19=J1_1
+ParamVariation20=ParameterName=Pin Count|VariantValue=6
+ParamDesignator20=J1_1
+ParamVariation21=ParameterName=PressFit|VariantValue=No
+ParamDesignator21=J1_1
+ParamVariation22=ParameterName=Sense|VariantValue=No
+ParamDesignator22=J1_1
+ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator23=J1_1
+ParamVariation24=ParameterName=Simulation|VariantValue= 
+ParamDesignator24=J1_1
+ParamVariation25=ParameterName=SMD|VariantValue=No
+ParamDesignator25=J1_1
+ParamVariation26=ParameterName=Socket|VariantValue=No
+ParamDesignator26=J1_1
+ParamVariation27=ParameterName=Status|VariantValue=None
+ParamDesignator27=J1_1
+Variation16=Designator=RR2_3|UniqueId=\3KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation17=Designator=J1_4|UniqueId=\4KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation28=ParameterName=Comment|VariantValue==Device
+ParamDesignator28=J1_4
+ParamVariation29=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator29=J1_4
+ParamVariation30=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator30=J1_4
+ParamVariation31=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator31=J1_4
+ParamVariation32=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator32=J1_4
+ParamVariation33=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator33=J1_4
+ParamVariation34=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator34=J1_4
+ParamVariation35=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator35=J1_4
+ParamVariation36=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator36=J1_4
+ParamVariation37=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator37=J1_4
+ParamVariation38=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator38=J1_4
+ParamVariation39=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator39=J1_4
+ParamVariation40=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator40=J1_4
+ParamVariation41=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator41=J1_4
+ParamVariation42=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator42=J1_4
+ParamVariation43=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator43=J1_4
+ParamVariation44=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator44=J1_4
+ParamVariation45=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator45=J1_4
+ParamVariation46=ParameterName=PCB3D|VariantValue= 
+ParamDesignator46=J1_4
+ParamVariation47=ParameterName=Pin Count|VariantValue=6
+ParamDesignator47=J1_4
+ParamVariation48=ParameterName=PressFit|VariantValue=No
+ParamDesignator48=J1_4
+ParamVariation49=ParameterName=Sense|VariantValue=No
+ParamDesignator49=J1_4
+ParamVariation50=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator50=J1_4
+ParamVariation51=ParameterName=Simulation|VariantValue= 
+ParamDesignator51=J1_4
+ParamVariation52=ParameterName=SMD|VariantValue=No
+ParamDesignator52=J1_4
+ParamVariation53=ParameterName=Socket|VariantValue=No
+ParamDesignator53=J1_4
+ParamVariation54=ParameterName=Status|VariantValue=None
+ParamDesignator54=J1_4
+Variation18=Designator=J1_3|UniqueId=\3KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation55=ParameterName=Comment|VariantValue==Device
+ParamDesignator55=J1_3
+ParamVariation56=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator56=J1_3
+ParamVariation57=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator57=J1_3
+ParamVariation58=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator58=J1_3
+ParamVariation59=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator59=J1_3
+ParamVariation60=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator60=J1_3
+ParamVariation61=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator61=J1_3
+ParamVariation62=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator62=J1_3
+ParamVariation63=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator63=J1_3
+ParamVariation64=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator64=J1_3
+ParamVariation65=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator65=J1_3
+ParamVariation66=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator66=J1_3
+ParamVariation67=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator67=J1_3
+ParamVariation68=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator68=J1_3
+ParamVariation69=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator69=J1_3
+ParamVariation70=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator70=J1_3
+ParamVariation71=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator71=J1_3
+ParamVariation72=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator72=J1_3
+ParamVariation73=ParameterName=PCB3D|VariantValue= 
+ParamDesignator73=J1_3
+ParamVariation74=ParameterName=Pin Count|VariantValue=6
+ParamDesignator74=J1_3
+ParamVariation75=ParameterName=PressFit|VariantValue=No
+ParamDesignator75=J1_3
+ParamVariation76=ParameterName=Sense|VariantValue=No
+ParamDesignator76=J1_3
+ParamVariation77=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator77=J1_3
+ParamVariation78=ParameterName=Simulation|VariantValue= 
+ParamDesignator78=J1_3
+ParamVariation79=ParameterName=SMD|VariantValue=No
+ParamDesignator79=J1_3
+ParamVariation80=ParameterName=Socket|VariantValue=No
+ParamDesignator80=J1_3
+ParamVariation81=ParameterName=Status|VariantValue=None
+ParamDesignator81=J1_3
+Variation19=Designator=J1_2|UniqueId=\2KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation82=ParameterName=Comment|VariantValue==Device
+ParamDesignator82=J1_2
+ParamVariation83=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator83=J1_2
+ParamVariation84=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator84=J1_2
+ParamVariation85=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator85=J1_2
+ParamVariation86=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator86=J1_2
+ParamVariation87=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator87=J1_2
+ParamVariation88=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator88=J1_2
+ParamVariation89=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator89=J1_2
+ParamVariation90=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator90=J1_2
+ParamVariation91=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator91=J1_2
+ParamVariation92=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator92=J1_2
+ParamVariation93=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator93=J1_2
+ParamVariation94=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator94=J1_2
+ParamVariation95=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator95=J1_2
+ParamVariation96=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator96=J1_2
+ParamVariation97=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator97=J1_2
+ParamVariation98=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator98=J1_2
+ParamVariation99=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator99=J1_2
+ParamVariation100=ParameterName=PCB3D|VariantValue= 
+ParamDesignator100=J1_2
+ParamVariation101=ParameterName=Pin Count|VariantValue=6
+ParamDesignator101=J1_2
+ParamVariation102=ParameterName=PressFit|VariantValue=No
+ParamDesignator102=J1_2
+ParamVariation103=ParameterName=Sense|VariantValue=No
+ParamDesignator103=J1_2
+ParamVariation104=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator104=J1_2
+ParamVariation105=ParameterName=Simulation|VariantValue= 
+ParamDesignator105=J1_2
+ParamVariation106=ParameterName=SMD|VariantValue=No
+ParamDesignator106=J1_2
+ParamVariation107=ParameterName=Socket|VariantValue=No
+ParamDesignator107=J1_2
+ParamVariation108=ParameterName=Status|VariantValue=None
+ParamDesignator108=J1_2
+Variation20=Designator=RR1_4|UniqueId=\4KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation21=Designator=RR1_3|UniqueId=\3KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
+Variation22=Designator=RR2_5|UniqueId=\5KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation23=Designator=RR3_2|UniqueId=\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation24=Designator=J1_5|UniqueId=\5KGIYBTYD\RVKVYSMQ|Kind=2|AlternatePart==Device|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Connectors.DbLib/Miscellaneous|AltLibLink_SymbolReference=AFBR-26x4Z|AltLibLink_DesignItemID=AFBR-1624Z|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Miscellaneous|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=AFBR-x624Z|AltLibLink_IsSameFootprint=True
+ParamVariation109=ParameterName=Comment|VariantValue==Device
+ParamDesignator109=J1_5
+ParamVariation110=ParameterName=ComponentHeight|VariantValue=7.62mm
+ParamDesignator110=J1_5
+ParamVariation111=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator111=J1_5
+ParamVariation112=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator112=J1_5
+ParamVariation113=ParameterName=CreateDate|VariantValue=10/02/2017
+ParamDesignator113=J1_5
+ParamVariation114=ParameterName=Database Table Name|VariantValue=Miscellaneous
+ParamDesignator114=J1_5
+ParamVariation115=ParameterName=Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator115=J1_5
+ParamVariation116=ParameterName=Device|VariantValue=AFBR-1624Z
+ParamDesignator116=J1_5
+ParamVariation117=ParameterName=Family|VariantValue=Optical Fiber
+ParamDesignator117=J1_5
+ParamVariation118=ParameterName=Footprint|VariantValue=AFBR-x624Z
+ParamDesignator118=J1_5
+ParamVariation119=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator119=J1_5
+ParamVariation120=ParameterName=LatestRevisionDate|VariantValue=10/02/2017
+ParamDesignator120=J1_5
+ParamVariation121=ParameterName=Library Reference|VariantValue=AFBR-1624Z
+ParamDesignator121=J1_5
+ParamVariation122=ParameterName=Manufacturer|VariantValue=AVAGO TECHNOLOGIES
+ParamDesignator122=J1_5
+ParamVariation123=ParameterName=Manufacturer Part Number|VariantValue=AFBR-1624Z
+ParamDesignator123=J1_5
+ParamVariation124=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator124=J1_5
+ParamVariation125=ParameterName=Part Description|VariantValue=DC-50MBd Versatile Link Fiber Optic Transmitter for 1 mm POF and 200 µm PCS
+ParamDesignator125=J1_5
+ParamVariation126=ParameterName=Part Number|VariantValue=AFBR-1624Z
+ParamDesignator126=J1_5
+ParamVariation127=ParameterName=PCB3D|VariantValue= 
+ParamDesignator127=J1_5
+ParamVariation128=ParameterName=Pin Count|VariantValue=6
+ParamDesignator128=J1_5
+ParamVariation129=ParameterName=PressFit|VariantValue=No
+ParamDesignator129=J1_5
+ParamVariation130=ParameterName=Sense|VariantValue=No
+ParamDesignator130=J1_5
+ParamVariation131=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator131=J1_5
+ParamVariation132=ParameterName=Simulation|VariantValue= 
+ParamDesignator132=J1_5
+ParamVariation133=ParameterName=SMD|VariantValue=No
+ParamDesignator133=J1_5
+ParamVariation134=ParameterName=Socket|VariantValue=No
+ParamDesignator134=J1_5
+ParamVariation135=ParameterName=Status|VariantValue=None
+ParamDesignator135=J1_5
+Variation25=Designator=RR2_4|UniqueId=\4KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+ParamVariationCount=135
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for FMC_POF\Design Rule Check - fmc-5pof.html
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.DRR
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.EXTREP
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBL
+DocumentPath=Project Outputs for FMC_POF\Design Rule Check - fmc-5pof.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBO
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBS
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GKO
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM8
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM13
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM14
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM15
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GPB
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\keep-out_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GPT
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_1\features
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTL
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_8\features
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTO
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_13\features
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTP
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_14\features
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTS
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_15\features
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.LDP
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.REP
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.RUL
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument21]
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for FMC_POF\odb\symbols\s39.3701_45\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for FMC_POF\odb\symbols\s78.7401_45\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.REP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for FMC_POF\fmc-5pof.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument43]
 DocumentPath=Project Outputs for FMC_POF\fmc-5pof.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for FMC_POF\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -443,6 +1330,45 @@ ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=0
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=-1
+ExportBOM=0
+TemplateFilename=Y:\Projects\Templates Altium\Altium_Template_BOM_DIG.xlsx
+TemplateStoreRelative=0
+PCB_PrintColor=0
+SCH_PrintColor=0
+PrintQuality=-4
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=Transmitter-1-2-3
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=-1
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
+
+[Generic_EDE]
+OutputDir=Project Outputs for FMC_POF
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -763,6 +1689,8 @@ OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 16=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 5=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=True|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView
 OutputType7=Mask
 OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
@@ -828,6 +1756,16 @@ OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=ColumnNameFormat
 Configuration4_Item1=CaptionAsName
+Configuration4_Name2=Filter
+Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A2400000001000000000003000000596573070000004D6F756E7465640112030000005900650073000000
+Configuration4_Name3=General
+Configuration4_Item3=OpenExported=True|AddToProject=False|ForceFit=True|NotFitted=True|Database=True|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=Y:\Projects\Templates Altium\Altium_Template_BOM_DIG.xlsx|BatchMode=5|FormWidth=2454|FormHeight=857|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration4_Name4=GroupOrder
+Configuration4_Item4=Fitted=True|Part Number=True
+Configuration4_Name5=SortOrder
+Configuration4_Item5=Fitted=Up|Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name6=VisibleOrder
+Configuration4_Item6=Fitted=100|Designator=118|Part Number=213|Part Description=214|PackageDescription=106|Case=106|Manufacturer=106|Manufacturer Part Number=106|Manufacturer1 Example=106|Manufacturer1 Part Number=106|Mounted=106|Power=106|PressFit=106|SMD=106|TC=106|Tolerance=106|Value=106|Voltage=102|Quantity=106
 OutputType5=ComponentCrossReference
 OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
@@ -1657,6 +2595,126 @@ ModelUpdate13=1
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Capacitors.DbLib/Capacitors SMD
+ComponentDesignItemID0=CC0402_100NF_16V_10%_X5R
+ComponentSymbolReference0=Capacitor - non polarized
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Capacitors.DbLib/Capacitors SMD
+ComponentDesignItemID1=CC0805_10UF_10V_10%_X7R
+ComponentSymbolReference1=Capacitor - non polarized
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Connectors.DbLib/Miscellaneous
+ComponentDesignItemID2=AFBR-1624Z
+ComponentSymbolReference2=AFBR-16x4Z
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Connectors.DbLib/Miscellaneous
+ComponentDesignItemID3=AFBR-2624Z
+ComponentSymbolReference3=AFBR-26x4Z
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Connectors.DbLib/Miscellaneous
+ComponentDesignItemID4=HIROSE_U.FL-R-SMT-1(10)
+ComponentSymbolReference4=Coax_1Male_1Shield
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Connectors.DbLib/SAMTEC
+ComponentDesignItemID5=SAMTEC_ASP-134604-01
+ComponentSymbolReference5=Connector VITA 57 160 Male (cdgh)
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Eletro-mechanical.DbLib/Fasteners & Fixings
+ComponentDesignItemID6=BOSSARD_BN5687-3061597_v
+ComponentSymbolReference6=Screw
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Eletro-mechanical.DbLib/Pads
+ComponentDesignItemID7=FIDUCIAL_TARGET_S100-200
+ComponentSymbolReference7=Fiducial Target
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Eletro-mechanical.DbLib/Pads
+ComponentDesignItemID8=Net Tie
+ComponentSymbolReference8=Net Tie
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Eletro-mechanical.DbLib/Pads
+ComponentDesignItemID9=PLATED_HOLE1.6_PAD3.0
+ComponentSymbolReference9=Single Terminal Socket
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Eletro-mechanical.DbLib/Pads
+ComponentDesignItemID10=PLATED_HOLE2.7_PAD5.0_M
+ComponentSymbolReference10=Single Terminal Socket
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=ICs And Semiconductors.DbLib/Analog & Interface
+ComponentDesignItemID11=SN65LVDM176DGK
+ComponentSymbolReference11=SN65LVDM176
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=ICs And Semiconductors.DbLib/Analog & Interface
+ComponentDesignItemID12=SN65MLVD040RGZT
+ComponentSymbolReference12=SN65MLVD040
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=ICs And Semiconductors.DbLib/Diodes
+ComponentDesignItemID13=PMEG4002EB
+ComponentSymbolReference13=Diode Schottky
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=ICs And Semiconductors.DbLib/LEDs & Displays
+ComponentDesignItemID14=LED_OSRAM_LG L29K-G2J1-24-Z
+ComponentSymbolReference14=LED Green 1C 2A
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=ICs And Semiconductors.DbLib/Logic
+ComponentDesignItemID15=24AA64T-I/MC
+ComponentSymbolReference15=24AA64T-I/MC
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Inductors & Transformers.DbLib/Inductors SMD
+ComponentDesignItemID16=IND0805_MURATA_BLM21PG221SN1D
+ComponentSymbolReference16=Inductor
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=Resistors.DbLib/Resistors SMD
+ComponentDesignItemID17=R0402_0R_JUMPER
+ComponentSymbolReference17=Resistor
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=Resistors.DbLib/Resistors SMD
+ComponentDesignItemID18=R0402_100R_1%_0.0625W_100PPM
+ComponentSymbolReference18=Resistor - 1%
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=Resistors.DbLib/Resistors SMD
+ComponentDesignItemID19=R0402_4K7_1%_0.0625W_100PPM
+ComponentSymbolReference19=Resistor - 1%
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
@@ -1668,4 +2726,28 @@ ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confir
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical8|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name11=OutputConfigurationParameter11
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical14|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name12=OutputConfigurationParameter12
+Configuration_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 
