@@ -1,4 +1,21 @@
+
+#Generic non-versioned files
 *.Zip
-*.SchDocPreview
 *.LOG
-*.PcbDocPreview
+~*
+
+#Altium generated files
+circuit_board/*.PDF
+circuit_board/*.PcbDocPreview
+circuit_board/*.SchDocPreview
+circuit_board/*.Cam
+circuit_board/*.Dat
+circuit_board/*.Annotation
+circuit_board/*.REP
+circuit_board/*.TLT 
+
+#Altium output folders
+circuit_board/Project Outputs*
+circuit_board/History*
+circuit_board/Project Logs*
+circuit_board/*Previews*
