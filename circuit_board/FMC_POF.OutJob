@@ -2,15 +2,15 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=C:\cygwin64\home\gustavo.bruno\projetos\fmc-pof\circuit_board\Project Outputs for FMC_POF\.PDF
+OutputFilePath2=C:\Users\gustavo.bruno\git\fmc-5POF-hw\circuit_board\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\cygwin64\home\gustavo.bruno\projetos\fmc-pof\circuit_board\Project Outputs for FMC_POF\
+OutputBasePath2=C:\Users\gustavo.bruno\git\fmc-5POF-hw\circuit_board\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=FMC_POF_SCH.pdf
+OutputFileName2=FMC_POF.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -81,7 +81,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\cygwin64\home\gustavo.bruno\projetos\fmc-pof\circuit_board\Project Outputs for FMC_POF\.PDF
+RelativeOutputPath2=C:\Users\gustavo.bruno\git\fmc-5POF-hw\circuit_board\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
@@ -128,5 +128,29 @@ OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.73|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=True|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType2=BOM_PartType
+OutputName2=Bill of Materials
+OutputCategory2=Report
+OutputDocumentPath2=
+OutputVariantName2=Transmitter-1-2-3
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=2
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=Filter
+Configuration2_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A2400000001000000000003000000596573070000004D6F756E7465640112030000005900650073000000
+Configuration2_Name3=General
+Configuration2_Item3=TemplateFilename=Y:\Projects\Templates Altium\Altium_Template_BOM_DIG.xlsx
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=Fitted=True|Part Number=True
+Configuration2_Name5=SortOrder
+Configuration2_Item5=Fitted=Up|Designator=Up|Comment=Up|Footprint=Up
+Configuration2_Name6=VisibleOrder
+Configuration2_Item6=Fitted=100|Designator=118|Part Number=213|Part Description=214|PackageDescription=106|Case=106|Manufacturer=106|Manufacturer Part Number=106|Manufacturer1 Example=106|Manufacturer1 Part Number=106|Mounted=106|Power=106|PressFit=106|SMD=106|TC=106|Tolerance=106|Value=106|Voltage=102|Quantity=106
 

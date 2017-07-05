@@ -1,0 +1,39 @@
+Each BOM Variant should generate a differente release package.
+The bottom side components are just for debug variants. All parts are on the same side in the release version.
+
+
+* Checklist for releasing hardware designs in Altium
+
+[] Erase output folder.
+
+[] Update version number in schematics and PCB layout.
+
+[] Update Draftsman source.
+
+[] Save all project files and commit to git.
+
+[] Run DRC with no errors.
+
+[] Push last commit to github.
+
+[] Create new release on GitHub pointing to last commit.
+
+[] Select correct variant.
+
+[] Generate schematics PDF.
+
+[] Generate bill of materials for correct variant.
+
+[] Generate draftsman PDF.
+
+[] Generate Gerbers and drill files.
+
+[] Add gerbers an drill files to a single zip file.
+
+[] Generate ODB zip file.
+
+[] Generate output files for mechanical parts.
+
+[] Upload generated files to the GitHub release.
+
+[] Insert release description and save it.
