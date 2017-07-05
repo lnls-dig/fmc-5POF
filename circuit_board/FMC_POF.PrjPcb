@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for FMC_POF
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -144,7 +144,7 @@ UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
 Description=All_Receivers
 AllowFabrication=1
 ParameterCount=0
-VariationCount=25
+VariationCount=29
 Variation1=Designator=CT1_1|UniqueId=\1KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation2=Designator=CT1_3|UniqueId=\3KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation3=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
@@ -170,6 +170,10 @@ Variation22=Designator=RT2_5|UniqueId=\5KGIYBTYD\JCTIVOFR|Kind=1|AlternatePart=
 Variation23=Designator=RT3_4|UniqueId=\4KGIYBTYD\WVLTOFYI|Kind=1|AlternatePart= 
 Variation24=Designator=RT4_5|UniqueId=\5KGIYBTYD\CKQUAYFM|Kind=1|AlternatePart= 
 Variation25=Designator=RT1_5|UniqueId=\5KGIYBTYD\FDWQAIYY|Kind=1|AlternatePart= 
+Variation26=Designator=J3|UniqueId=\XSBSLMIL|Kind=1|AlternatePart= 
+Variation27=Designator=J4|UniqueId=\PAKABFDT|Kind=1|AlternatePart= 
+Variation28=Designator=J5|UniqueId=\VEFDEKNL|Kind=1|AlternatePart= 
+Variation29=Designator=J6|UniqueId=\EIGNKJYN|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -177,7 +181,7 @@ UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
 Description=Transmitter-1
 AllowFabrication=1
 ParameterCount=0
-VariationCount=25
+VariationCount=29
 Variation1=Designator=CT1_3|UniqueId=\3KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation2=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation3=Designator=CT1_2|UniqueId=\2KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
@@ -257,6 +261,10 @@ ParamVariation26=ParameterName=Socket|VariantValue=No
 ParamDesignator26=J1_1
 ParamVariation27=ParameterName=Status|VariantValue=None
 ParamDesignator27=J1_1
+Variation26=Designator=J3|UniqueId=\XSBSLMIL|Kind=1|AlternatePart= 
+Variation27=Designator=J4|UniqueId=\PAKABFDT|Kind=1|AlternatePart= 
+Variation28=Designator=J5|UniqueId=\VEFDEKNL|Kind=1|AlternatePart= 
+Variation29=Designator=J6|UniqueId=\EIGNKJYN|Kind=1|AlternatePart= 
 ParamVariationCount=27
 
 [ProjectVariant3]
@@ -264,7 +272,7 @@ UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
 Description=Transmitter-1-2
 AllowFabrication=1
 ParameterCount=0
-VariationCount=25
+VariationCount=29
 Variation1=Designator=CT1_3|UniqueId=\3KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation2=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation3=Designator=CT1_4|UniqueId=\4KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
@@ -398,6 +406,10 @@ ParamDesignator53=J1_2
 ParamVariation54=ParameterName=Status|VariantValue=None
 ParamDesignator54=J1_2
 Variation25=Designator=RR3_2|UniqueId=\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation26=Designator=J3|UniqueId=\XSBSLMIL|Kind=1|AlternatePart= 
+Variation27=Designator=J4|UniqueId=\PAKABFDT|Kind=1|AlternatePart= 
+Variation28=Designator=J5|UniqueId=\VEFDEKNL|Kind=1|AlternatePart= 
+Variation29=Designator=J6|UniqueId=\EIGNKJYN|Kind=1|AlternatePart= 
 ParamVariationCount=54
 
 [ProjectVariant4]
@@ -405,7 +417,7 @@ UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
 Description=Transmitter-1-2-3
 AllowFabrication=1
 ParameterCount=0
-VariationCount=25
+VariationCount=29
 Variation1=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation2=Designator=CT1_4|UniqueId=\4KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation3=Designator=CR1_3|UniqueId=\3KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
@@ -593,6 +605,10 @@ ParamVariation81=ParameterName=Status|VariantValue=None
 ParamDesignator81=J1_2
 Variation24=Designator=RR1_3|UniqueId=\3KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
 Variation25=Designator=RR3_2|UniqueId=\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
+Variation26=Designator=J3|UniqueId=\XSBSLMIL|Kind=1|AlternatePart= 
+Variation27=Designator=J4|UniqueId=\PAKABFDT|Kind=1|AlternatePart= 
+Variation28=Designator=J5|UniqueId=\VEFDEKNL|Kind=1|AlternatePart= 
+Variation29=Designator=J6|UniqueId=\EIGNKJYN|Kind=1|AlternatePart= 
 ParamVariationCount=81
 
 [ProjectVariant5]
@@ -600,7 +616,7 @@ UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
 Description=Transmitter-1-2-3-4
 AllowFabrication=1
 ParameterCount=0
-VariationCount=25
+VariationCount=29
 Variation1=Designator=CT1_5|UniqueId=\5KGIYBTYD\OWCHQMCL|Kind=1|AlternatePart= 
 Variation2=Designator=CR1_4|UniqueId=\4KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
 Variation3=Designator=CR1_3|UniqueId=\3KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
@@ -842,6 +858,10 @@ Variation22=Designator=RR1_4|UniqueId=\4KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart=
 Variation23=Designator=RR1_3|UniqueId=\3KGIYBTYD\YPCNBVCK|Kind=1|AlternatePart= 
 Variation24=Designator=RR3_2|UniqueId=\2KGIYBTYD\GMRJYILK|Kind=1|AlternatePart= 
 Variation25=Designator=RR2_4|UniqueId=\4KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation26=Designator=J3|UniqueId=\XSBSLMIL|Kind=1|AlternatePart= 
+Variation27=Designator=J4|UniqueId=\PAKABFDT|Kind=1|AlternatePart= 
+Variation28=Designator=J5|UniqueId=\VEFDEKNL|Kind=1|AlternatePart= 
+Variation29=Designator=J6|UniqueId=\EIGNKJYN|Kind=1|AlternatePart= 
 ParamVariationCount=108
 
 [ProjectVariant6]
@@ -849,7 +869,7 @@ UniqueID=08E717F9-7E4D-49DB-A43E-1FCF533D07C9
 Description=Transmitter-1-2-3-4-5
 AllowFabrication=1
 ParameterCount=0
-VariationCount=25
+VariationCount=29
 Variation1=Designator=CR1_5|UniqueId=\5KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
 Variation2=Designator=CR1_4|UniqueId=\4KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
 Variation3=Designator=CR1_3|UniqueId=\3KGIYBTYD\NOIJVBFJ|Kind=1|AlternatePart= 
@@ -1145,206 +1165,14 @@ ParamDesignator134=J1_5
 ParamVariation135=ParameterName=Status|VariantValue=None
 ParamDesignator135=J1_5
 Variation25=Designator=RR2_4|UniqueId=\4KGIYBTYD\VOGBURFX|Kind=1|AlternatePart= 
+Variation26=Designator=J3|UniqueId=\XSBSLMIL|Kind=1|AlternatePart= 
+Variation27=Designator=J4|UniqueId=\PAKABFDT|Kind=1|AlternatePart= 
+Variation28=Designator=J5|UniqueId=\VEFDEKNL|Kind=1|AlternatePart= 
+Variation29=Designator=J6|UniqueId=\EIGNKJYN|Kind=1|AlternatePart= 
 ParamVariationCount=135
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for FMC_POF\Design Rule Check - fmc-5pof.html
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\keep-out_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_8\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_13\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_14\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\mechanical_15\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for FMC_POF\odb\symbols\s39.3701_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for FMC_POF\odb\symbols\s78.7401_45\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM8
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM14
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.REP
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for FMC_POF\fmc-5pof.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for FMC_POF\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for FMC_POF\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1394,12 +1222,12 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for FMC_POF
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -1506,47 +1334,17 @@ OutputName21=XSpice Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=Verilog
-OutputName22=Verilog File
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=VHDL
-OutputName23=VHDL File
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-OutputType24=SIMetrixNetlist
-OutputName24=SIMetrix
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-OutputType25=SIMPLISNetlist
-OutputName25=SIMPLIS
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1625,59 +1423,11 @@ OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Assembler Source Print
-OutputName13=Assembler Source Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=C Source Print
-OutputName14=C Source Prints
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=C/C++ Header Print
-OutputName15=C/C++ Header Prints
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=C++ Source Print
-OutputName16=C++ Source Prints
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=FSM Print
-OutputName17=FSM Prints
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Logic Analyser Print
-OutputName18=Logic Analyser Prints
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=OpenBus Print
-OutputName19=OpenBus Prints
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=VHDL Print
-OutputName20=VHDL Prints
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -1699,7 +1449,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -1777,7 +1527,7 @@ Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1826,7 +1576,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -2006,7 +1756,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -2045,7 +1795,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -2096,7 +1846,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=\\phoenix\Anel-Canto-Oeste
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
